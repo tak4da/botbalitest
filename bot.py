@@ -806,7 +806,7 @@ async def finish_inspection(message: types.Message):
                 f"👷 Аудитор: {inspector_name}\n"
                 f"📅 Дата аудита: {ins_date.strftime('%d.%m.%Y')}\n"
                 f"📍 Исправить до: {control_date.strftime('%d.%m.%Y')}\n"
-                f"🤖 Перейти в бота: @@hvhvhvhvhbot"
+                f"🤖 Перейти в бота: @hvhvhvhvhbot"
             )
 
             await bot.send_message(
