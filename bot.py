@@ -39,7 +39,7 @@ BALIZAG_CHAT_ID = -2017069706     # правильный ID группы
 BALIZAG_THREAD_ID = 929
 
 # ID админов, которые могут подтверждать/возвращать замечания
-ADMIN_IDS = {377226664, 1705170078, 5148441089}
+ADMIN_IDS = {5148441089}
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
